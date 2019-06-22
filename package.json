@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://jackding1208.github.io/react-demo/dist",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -28,5 +29,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
   }
 }

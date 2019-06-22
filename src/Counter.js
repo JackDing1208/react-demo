@@ -5,15 +5,15 @@ function Counter(props) {
     const plus=()=>{
         set(n+1)
     }
-    const sayHi=()=>{
-        alert('hello')
+    const sayHi=(x)=>{
+        console.log(x);
     }
     return(
         <div>
             <div>{props.name}</div>
             <span>{n}</span>
             <button onClick={plus}>+1</button>
-            <button onClick={sayHi}>hi</button>
+            <button onClick={()=>{sayHi(Math.random())}}>hi</button>
         </div>
     )
 }
